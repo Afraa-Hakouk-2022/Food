@@ -1,0 +1,37 @@
+.input {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.input label {
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+.input input {
+  width: 3rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font: inherit;
+  padding-left: 0.5rem;
+}
+
+.button {
+  cursor: pointer;
+  font: inherit;
+  border: none;
+  background-color: #92320c;
+  color: white;
+  padding: 0.75rem 3rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+.button:hover,
+.button:active {
+  background-color: #4d1601;
+}
